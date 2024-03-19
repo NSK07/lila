@@ -15,9 +15,11 @@ body {
   }
 
   --main-margin: 0;
+  --block-gap: 10px;
 
   @media (min-width: at-least($small)) {
     --main-margin: 1vw;
+    --block-gap: 15px;
     margin-bottom: $block-gap;
   }
 }
